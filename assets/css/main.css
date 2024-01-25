@@ -173,7 +173,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #000000;
 }
 
 body.is-preload *,
@@ -193,7 +193,7 @@ body,
 input,
 select,
 textarea {
-  color: #929191;
+  color: #ffffff;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -206,7 +206,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #49bf9d;
+  color: #57e7be;
   text-decoration: none;
 }
 
@@ -218,7 +218,7 @@ a:hover {
 
 strong,
 b {
-  color: #787878;
+  color: #f1dc51;
   font-weight: 600;
 }
 
@@ -237,11 +237,12 @@ h3,
 h4,
 h5,
 h6 {
-  color: #787878;
+  color: #e19232;
   font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em 0;
 }
+
 
 h1 a,
 h2 a,
@@ -1859,7 +1860,7 @@ article.special {
 }
 
 header p {
-  color: #b2b2b2;
+  color: #e59238;
   position: relative;
   margin: 0 0 1.5em 0;
 }
@@ -3184,7 +3185,7 @@ body.is-touch .poptrox-popup .closer {
   #footer {
     background-attachment: scroll;
     background-color: #1f1815;
-    background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+    background-image: url("images/overlay.png"), url("../../images/image_3.jpg");
     background-position: top left, bottom center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
