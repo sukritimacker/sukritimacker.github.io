@@ -22,16 +22,47 @@
           ><img src="images/avatar.jpg" alt=""
         /></a>
         <h1>
-          <strong>Hi, I'm Sukriti Macker.</strong><br />Welcome to my portfolio.
+          <strong>Hi, I'm Sukriti Macker.</strong><br /><strong>Welcome to my portfolio.</strong>
+          
         </h1>
       </div>
     </header>
 
     <!-- Main -->
+    <style>
+      .navdiv{
+        display: flex; align-items: center; justify-content: flex-end;
+      }
+      /* .logo a{
+        font-size: 35px; font-weight: 600; color: white;
+      } */
+      li{
+        list-style: none; display: inline-block;
+      }
+      li a{
+        color: white; font-size: 25px; font-weight: bold; margin-right: 25px;
+      }
+      button{
+        background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+      }
+      /* button a{
+        color: white; font-weight: bold; font-size: 15px;
+      } */
+    </style>
     <div id="main">
       <!-- One -->
       <section id="one">
         <header class="major">
+          <nav class="navbar">
+            <div class="navdiv">
+              <!-- <div class="logo"><a href="#">CodingNinja</a> </div> -->
+    
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#myprojects">Projects</a></li>
+                <li><a href="#myblogs">Blogs</a></li>
+            </div>
+          </nav>
+          <br>
           <h2>A data analyst or data scientist, anyone?</h2>
         </header>
         <p>
@@ -54,18 +85,58 @@
           If you're seeking someone proficient in data science methodologies and programming languages such as Python & SQL, feel
           free send me an email. I'm currently
           <strong> open to work starting May 2024.</strong> 
-          Download my resume
-          <a
-            href="https://drive.google.com/file/d/1htX1_ZoBd9Q_3chgpwBHKxDXyBlxE4NS/view?usp=sharing"
-            target="_blank"
-            >here</a
-          >.
-        </p>
-      </section>
+          <p>
+            <a href="https://drive.google.com/file/d/1aQnOcRppXoDI_p3oYlGRkN5vYApj2ZNp/view?usp=sharing" class="button">Resume</a>
+            <style>
+              .icon {
+                margin: 5px; /* Adjust margin as needed */
+              }
+            </style>
+              <a
+              href="https://github.com/sukritimacker"
+              target="_blank"
+              class="icon brands fa-github"
+              style="font-size: 32px;"
+              ><span class="label">Github</span></a>
+
+              <style>
+              .icon {
+                position: relative;
+              }
+              </style>
+              <style>
+                .icon {
+                  margin: 5px; /* Adjust margin as needed */
+                }
+              </style>
+              <a
+              href="https://www.linkedin.com/in/sukritimacker/"
+              target="_blank"
+              class="icon brands fa-linkedin"
+              style="font-size: 32px;"
+              ><span class="label">LinkedIn</span></a>
+
+          </section>
 
       <!-- Two -->
       <section id="two">
-        <h2>Work Experience</h2>
+        <!-- <h2>Skills</h2> -->
+        <h2><a id="skills">Skills</a></h2>
+        <div class="content">
+        <ul>
+          <li>
+            Programming: <strong>Python, SQL</strong>
+          </li>
+          <li>
+            Tools: <strong>Tableau, Excel, Looker Studio, PowerBI, GCP, AWS, Airflow, Docker</strong>
+          </li>
+          <li>
+            Core Competencies: <strong>Machine Learning (Regression, Classification, Clustering), CNN, RNN, 
+              Metric Development, Data Modeling, Data Mining, Feature Engineering, Experimentation & Statistical Analysis, 
+              A/B Testing, Hypothesis Testing, Big Data (Hadoop, Hive), Predictive Modeling</strong>
+          </li>
+        </ul>
+        <!-- <h2>Work Experience</h2>
         <div class="content">
           <header>
             <h3>
@@ -81,14 +152,14 @@
             <code>Business Intelligence (BI)</code>
             <code>Data Visualization</code>
             <code>Python</code>
-            <code>Microsoft Excel</code>
+            <code>Microsoft Excel</code> -->
             
             <!-- <li>
             Performed in-depth exploratory data analysis leading to a 15% reduction in database size and improved accuracy. Integrated diverse databases, achieving a 20% decrease in errors and enhancing tracking of legal agreements.
-            </li> -->
-          </ul> 
+            </li> 
+          </ul> -->
 
-          <header>
+          <!-- <header>
             <h3>Graduate Assistant, <b>NYU Steinhardt</b></h3> 
             <ul>
               <code>Survey Design</code>
@@ -100,7 +171,7 @@
               <code>Tableau</code>
               <code>Qualtrics</code>
               <code>Microsoft Excel</code>
-            </ul>
+            </ul> -->
             <!-- <p>Mar 2023 - Present</p> -->
           <!-- </header>
           <ul>
@@ -111,10 +182,10 @@
             </li>
           </ul>  -->
 
-          <header>
-            <h3>Data Analyst, <b>FinBox, India</b></h3>
+          <!-- <header>
+            <h3>Data Analyst, <b>FinBox, India</b></h3> -->
              <!-- <p>Aug 2021 - Jul 2022</p>  -->
-         </header>
+         <!-- </header>
          <ul>
           <code>PostgreSQL</code>
           <code>Cross-functional Team Leadership</code>
@@ -127,7 +198,7 @@
           <code>Extract, Transform, Load (ETL)</code>
           <code>Data Quality</code>
           <code>Microsoft Excel</code>
-        </ul>
+        </ul>  -->
           <!-- <ul>
             <li>
               Led the data extraction and quality team, creating effective multilingual regexes 
@@ -152,12 +223,12 @@
             </li>
            </ul> -->
 
-          <header>
+          <!-- <header>
             
-            <h3>Machine Learning Intern, <b>Indian Institute of Technology, Varanasi, India</b></h3> 
+            <h3>Machine Learning Intern, <b>Indian Institute of Technology, Varanasi, India</b></h3>  -->
             
              <!-- <p>Jun 2020 - Jul 2020</p>  -->
-          </header>
+          <!-- </header>
           <ul>
             <code>Python</code>
             <code>Exploratory/Statistical Data Analysis</code>
@@ -165,7 +236,7 @@
             <br>
             <code>Machine Learning</code>
             <code>Deep Learning</code>
-          </ul>
+          </ul> -->
           <!-- <ul>
               <li>
               Developed a high-performance neural network model, "Character Recognition Using Smartphone Time Series Sensor Data," 
@@ -182,7 +253,8 @@
 
       <!-- Three -->
       <section id="three">
-        <h2>Highlighted Projects</h2>
+        <h2><a id="myprojects">Projects</a></h2>
+        <!-- <h2>Highlighted Projects</h2> -->
         <div class="row">
           <article class="col-6 col-12-xsmall work-item">
             <a class="image fit"
@@ -317,7 +389,8 @@
       </section>
 
       <section id="five">
-        <h2>Blogs</h2>
+        <h2><a id="myblogs">Blogs</a></h2>
+        <!-- <h2>Blogs</h2> -->
         <div class="row">
           <article class="col-6 col-12-xsmall work-item">
             <a class="image fit"
@@ -363,6 +436,7 @@
                   <span class="label">Email</span>
                 </h3>
                 <a href="mailto:s.macker620@gmail.com">s.macker620@gmail.com</a>
+                
               </li>
             </ul>
           </div>
@@ -373,7 +447,7 @@
     <!-- Footer -->
     <footer id="footer">
       <div class="inner">
-        <ul class="icons">
+        <!-- <ul class="icons">
           <li>
             <a
               href="https://www.linkedin.com/in/sukritimacker/"
@@ -390,12 +464,12 @@
               ><span class="label">Github</span></a
             >
           </li>
-        </ul>
+        </ul> -->
         <ul class="copyright">
           <li>&copy; Sukriti Macker 2024</li>
-          <li>
+          <!-- <li>
             Design: <a target="_blank" href="http://html5up.net">HTML5 UP</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </footer>
